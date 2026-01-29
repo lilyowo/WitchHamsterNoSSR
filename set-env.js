@@ -17,7 +17,7 @@ const apiKey = process.env.API_KEY || '';
 const envConfigFile = `
 export const environment = {
   production: true,
-  apiKey: '${apiKey}'
+  geminiApiKey: '${apiKey}'
 };
 `;
 
