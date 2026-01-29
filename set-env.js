@@ -8,7 +8,7 @@ const targetPath = path.join(__dirname, './src/environments/environment.ts');
 const envConfigFile = `
 export const environment = {
   production: true,
-  apiKey: '${process.env.GEMINI_API_KEY || ""}'
+  apiKey: '${process.env.API_KEY || ""}'
 };
 `;
 
