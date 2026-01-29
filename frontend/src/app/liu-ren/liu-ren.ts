@@ -2,8 +2,8 @@ import { Component, ChangeDetectionStrategy, PLATFORM_ID, Inject, ChangeDetector
 import { isPlatformBrowser } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { GoogleGenerativeAI, GenerateContentResult } from "@google/generative-ai";
-import { environment } from '../../environments/environment';
+// import { GoogleGenerativeAI, GenerateContentResult } from "@google/generative-ai";
+
 
 
 @Component({
@@ -16,8 +16,6 @@ import { environment } from '../../environments/environment';
 })
 export class LiuRen {
   showModal: boolean = true;
-  private readonly API_KEY = environment.geminiApiKey;
-  genAI: GoogleGenerativeAI = new GoogleGenerativeAI(this.API_KEY);
   question: string = '';
   num1: number | null = null;
   num2: number | null = null;
@@ -53,21 +51,8 @@ export class LiuRen {
 
   constructor(@Inject(PLATFORM_ID) private platformId: Object , private cdr: ChangeDetectorRef) {
     if (isPlatformBrowser(this.platformId)) {
-      this.initGemini();
     }
   }
-
-  private async initGemini() {
-    try {
-      this.model = this.genAI.getGenerativeModel({ 
-        model: "gemini-2.5-flash" 
-      });
-      console.log('✅ Gemini 初始化成功');
-    } catch (error) {
-      console.error('❌ Gemini 初始化失敗:', error);
-    }
-  }
-
   calculate() {
     if (this.num1 === null || this.num2 === null || this.num3 === null) {
       alert('請輸入三個數字喔!');
@@ -102,51 +87,42 @@ export class LiuRen {
       return;
     }
 
-    if (!this.model) {
-      alert('AI 功能正在載入中,請稍候再試');
-      return;
-    }
-
     this.isLoading = true;
     this.analysisText2 = '倉鼠正在用短短的爪子認真掐指一算,請稍候...';
-    
-    const prompt = `請你扮演一位女倉鼠法師,針對問題「${this.question}」給予回答。
-占卜結果是:【${this.resultA}】、【${this.resultB}】、【${this.resultC}】。
-基本的判斷是:${this.analysisText}。
-請給我 300 字以內的解析，只講重點，口吻要嚴肅禮貌並且犀利。以「倉鼠法師掐指一算，認為你問的這件事」為開頭`;
 
     try {
+      // 後端位置：先用桌機 LAN IP
+      const BACKEND_BASE = 'http://172.20.10.6:3333';
       console.log('🔮 開始呼叫 Gemini API...');
-      console.log('📝 Prompt:', prompt);
-      
-      // 呼叫 API 並獲取回應
-      const result: GenerateContentResult = await this.model.generateContent(prompt);
-      const response = await result.response;
-      this.cdr.detectChanges();
-      // const text: string = await response.text();
-      this.analysisText2 = await response.text();
-      console.log('✅ AI 解析成功:', this.analysisText2);
+      const res = await fetch(`${BACKEND_BASE}/api/liu-ren/gemini`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          question: this.question,
+          resultA: this.resultA,
+          resultB: this.resultB,
+          resultC: this.resultC,
+          analysisText: this.analysisText,
+        }),
+      });
 
-      this.isLoading = false; 
+      const data = await res.json();
+      console.log(data);
+      this.analysisText2 = data;
       this.cdr.detectChanges();
-      
-    } catch (error: any) {
-      console.error("❌ AI 呼叫完整錯誤", error);
-      
-      if (error.message?.includes('API_KEY_INVALID')) {
-        this.analysisText2 = "API Key 無效,請檢查設定。";
-      } else if (error.message?.includes('not found')) {
-        this.analysisText2 = "模型不存在,請確認 API Key 權限。";
-      } else if (error.message?.includes('quota')) {
-        this.analysisText2 = "API 配額已用完,請稍後再試。";
-      } else {
-        this.analysisText2 = `系統錯誤: ${error.message || '未知錯誤'}`;
+      if (!res.ok) {
+        throw new Error(data?.error || '後端回應失敗');
       }
-      this.isLoading = false;
+      this.analysisText2 = data;
       this.cdr.detectChanges();
+      this.isLoading = false;
+      this.analysisText2 = data?.text ?? '(沒有取得文字)';
+      this.cdr.detectChanges();
+    } catch (e: any) {
+    this.analysisText2 = `系統錯誤: ${e?.message || '未知錯誤'}`;
+    this.isLoading = false;
     } finally {
-      this.isLoading = false;
-      this.cdr.detectChanges();
+    this.isLoading = false;
     }
   }
 }

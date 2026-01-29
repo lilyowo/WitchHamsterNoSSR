@@ -8,9 +8,12 @@
 */
 
 import router from '@adonisjs/core/services/router'
+const GeminiController = () => import('#controllers/gemini_controller')
 
 router.get('/', async () => {
   return {
     hello: 'world',
   }
 })
+
+router.post('/api/liu-ren/gemini', [GeminiController, 'liuRen'])
