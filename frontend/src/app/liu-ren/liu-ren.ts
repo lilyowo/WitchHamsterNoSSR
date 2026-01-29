@@ -92,7 +92,7 @@ export class LiuRen {
 
     try {
       // 後端位置：先用桌機 LAN IP
-      const BACKEND_BASE = 'https://arrived-incidents-trackbacks-protective.trycloudflare.com';
+      const BACKEND_BASE = 'https://gel-deaths-chip-flexibility.trycloudflare.com';
       console.log('🔮 開始呼叫 Gemini API...');
       const res = await fetch(`${BACKEND_BASE}/api/liu-ren/gemini`, {
         method: 'POST',
