@@ -82,7 +82,6 @@ textarea::placeholder {
 
 /* 結果頁面樣式 */
 .board-header {
-  background-image: url('images/board2.png');
   background-size: 100% 100%;
   padding: 40px;
   text-align: center;
@@ -99,28 +98,14 @@ h1 {
   background-size: contain; /* 等比例完整顯示 */
 }
 
-/* .result-content {
-  
-  margin: 20px auto;
-  text-align: center;
-  padding: 0 20px;
-  background-color: #b6d7a8;
-  background-image: url('/images/hamster_bg.png');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 150vh;
-  opacity:0.3
-}
- */
-
 .result-content {
   position: relative;
-  margin: 20px auto;
+  margin: 0 px auto;
   text-align: center;
-  padding: 0 20px;
+  padding: 0 0px;
   min-height: 150vh;
   overflow: hidden; /* 保險用 */
+  
 
 }
 .result-content::before {
@@ -128,7 +113,7 @@ h1 {
   position: absolute;
   inset: 0;
 
-  background-image: url('images/hamster_bg.png');
+  /* background-image: url('/images/hamster_bg.png'); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

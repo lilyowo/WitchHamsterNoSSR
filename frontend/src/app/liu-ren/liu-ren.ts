@@ -91,9 +91,9 @@ export class LiuRen {
     this.analysisText2 = '倉鼠正在用短短的爪子認真掐指一算,請稍候...';
 
     try {
-      // 後端位置：先用桌機 LAN IP
       const BACKEND_BASE = 'https://api.hamster-witch.org';
       console.log('🔮 開始呼叫 Gemini API...');
+      
       const res = await fetch(`${BACKEND_BASE}/api/liu-ren/gemini`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -106,23 +106,43 @@ export class LiuRen {
         }),
       });
 
-      const data = await res.json();
-      console.log(data);
-      this.analysisText2 = data;
-      this.cdr.detectChanges();
-      if (!res.ok) {
-        throw new Error(data?.error || '後端回應失敗');
+      // 1. 先處理 429 配額問題
+      if (res.status === 429) {
+        this.analysisText2 = '🐹：倉鼠法師的魔力值已耗盡（今日配額用完），請等法師吃完葵瓜子休息一下再試喔！';
+        this.isLoading = false;
+        this.cdr.detectChanges();
+        return; 
       }
-      this.analysisText2 = data;
-      this.cdr.detectChanges();
+
+      const data = await res.json();
+
+      // 2. 檢查其他非 200 的錯誤 (例如 500)
+      if (!res.ok) {
+        // 如果後端有傳回特定的錯誤訊息就顯示，否則顯示通用錯誤
+        const errorMsg = data?.message || data?.error || '法術施展失敗';
+        throw new Error(errorMsg);
+      }
+
+      // 3. 成功取得文字
+      this.analysisText2 = data?.text ?? '🐹：(法師點了點頭，但沒有說話)';
       this.isLoading = false;
-      this.analysisText2 = data?.text ?? '(沒有取得文字)';
       this.cdr.detectChanges();
+      
     } catch (e: any) {
-    this.analysisText2 = `系統錯誤: ${e?.message || '未知錯誤'}`;
-    this.isLoading = false;
+      console.error('API 錯誤:', e);
+      // 這裡處理最後的防線
+      if (e?.message?.includes('429') || e?.message?.includes('quota')) {
+        this.analysisText2 = '🐹：倉鼠法師的魔力值已耗盡！法師現在想睡覺了，請晚點再過來。';
+        this.isLoading = false;
+        this.cdr.detectChanges();
+      } else {
+        this.analysisText2 = `🐹：法師的祭壇出錯了 (${e?.message || '未知錯誤'})`;
+        this.isLoading = false;
+        this.cdr.detectChanges();
+      }
     } finally {
-    this.isLoading = false;
+      this.isLoading = false;
+      this.cdr.detectChanges();
     }
   }
 }

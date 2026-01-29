@@ -8,7 +8,6 @@
 
 /* ===== 上方標題區 ===== */
 .board-header {
-  background-image: url('images/board2.png');
   background-size: 100% 100%;
   padding: 40px;
   text-align: center;
@@ -28,7 +27,6 @@ h1 {
   min-height: calc(100vh - 120px);
 
   background-color: #b6d7a8;
-  background-image: url('images/hamster_bg.png');
   background-repeat: no-repeat;
   background-position: center;
   /* background-size: contain; */
@@ -95,7 +93,6 @@ h1 {
   min-height: calc(100vh - 120px);
 
   background-color: #b6d7a8;
-  background-image: url('images/hamster_bg.png');
   background-repeat: repeat;
   background-size: contain;
   background-position: center;
