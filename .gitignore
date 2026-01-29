@@ -1,0 +1,56 @@
+# =====================
+# Frontend (Angular)
+# =====================
+
+# Node / build
+frontend/node_modules/
+frontend/dist/
+frontend/out-tsc/
+frontend/.angular/
+frontend/.angular/cache/
+frontend/coverage/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+frontend/testem.log
+frontend/libpeerconnection.log
+
+# Temp / misc
+frontend/tmp/
+frontend/bazel-out/
+frontend/.sass-cache/
+frontend/connect.lock
+frontend/typings/
+frontend/__screenshots__/
+
+# =====================
+# Backend (Node / Express)
+# =====================
+
+backend/node_modules/
+backend/.env
+backend/.env.*
+backend/dist/
+backend/logs/
+
+# =====================
+# IDE / Editor
+# =====================
+
+# VS Code (keep shared settings)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.history/
+
+# =====================
+# OS / Common
+# =====================
+
+.DS_Store
+Thumbs.db
+*.log
