@@ -1,46 +1,56 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# =====================
+# Frontend (Angular)
+# =====================
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+# Node / build
+frontend/node_modules/
+frontend/dist/
+frontend/out-tsc/
+frontend/.angular/
+frontend/.angular/cache/
+frontend/coverage/
 
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-error.log*
+frontend/testem.log
+frontend/libpeerconnection.log
 
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# Temp / misc
+frontend/tmp/
+frontend/bazel-out/
+frontend/.sass-cache/
+frontend/connect.lock
+frontend/typings/
+frontend/__screenshots__/
 
-# Visual Studio Code
+# =====================
+# Backend (Node / Express)
+# =====================
+
+backend/node_modules/
+backend/.env
+backend/.env.*
+backend/dist/
+backend/logs/
+
+# =====================
+# IDE / Editor
+# =====================
+
+# VS Code (keep shared settings)
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-!.vscode/mcp.json
-.history/*
 
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
-__screenshots__/
+.history/
 
-# System files
+# =====================
+# OS / Common
+# =====================
+
 .DS_Store
 Thumbs.db
-.env
-# src/environments/environment.ts
+*.log
