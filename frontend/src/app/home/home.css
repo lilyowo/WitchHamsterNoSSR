@@ -11,6 +11,28 @@
   background-size: 100% 100%;
   padding: 40px;
   text-align: center;
+  position: relative;
+}
+/* 鈴鐺按鈕 */
+.bell-btn {
+  position: absolute;
+  right: 100px;        /* 👉 不貼邊 */
+  top: 50%;           /* 垂直置中 */
+  transform: translateY(-50%);
+
+  background: transparent; /* ✔ 透明 */
+  border: none;            /* ✔ 無邊框 */
+  padding: 0;
+
+  font-size: 1.6rem;
+  cursor: pointer;
+
+  line-height: 1;
+}
+
+/* hover 小互動（可選，但會很好看） */
+.bell-btn:hover {
+  transform: translateY(-50%) scale(1.2);
 }
 h1 {
   margin: 0;
@@ -101,4 +123,11 @@ h1 {
   display: flex;
   justify-content: center; /* 內容靠左 */
   align-items: center;
+}
+
+.magic-video {
+  width: 80%;
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
