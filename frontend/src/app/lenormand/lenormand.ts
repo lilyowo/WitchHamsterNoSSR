@@ -192,6 +192,52 @@ export class Lenormand{
   get contentC() {
     return this.cardMeanings[this.pickedCards[2] - 1];
   }
+  analysisText2: string = '';
+  isLoading: boolean = false;
+  async getLenormandAIInterpretation() {
+  if (this.isLoading) return;
+
+  this.isLoading = true;
+  this.analysisText2 = '';
+
+  try {
+    const BACKEND_BASE = 'https://api.hamster-witch.org';
+    const res = await fetch(`${BACKEND_BASE}/api/lenormand/gemini`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        question: this.question,
+        resultA: this.resultA,
+        resultB: this.resultB,
+        resultC: this.resultC,
+        analysisText: `
+    ${this.resultA} 通常代表 ${this.contentA}
+    ${this.resultB} 通常代表 ${this.contentB}
+    ${this.resultC} 通常代表 ${this.contentC}
+            `.trim(),
+          }),
+        });
+
+        if (!res.ok) {
+          throw new Error('API failed');
+        }
+
+        const data = await res.json();
+        this.analysisText2 = data.text ?? '';
+        this.isLoading = false;
+        this.cdr.detectChanges();
+      } catch (err) {
+        console.error('[Lenormand AI] error:', err);
+        this.analysisText2 = '倉鼠法師現在有點累，請稍後再試。';
+        this.isLoading = false;
+        this.cdr.detectChanges();
+      } finally {
+        this.isLoading = false;
+        this.cdr.detectChanges();
+      }
+    }
 
 
 }

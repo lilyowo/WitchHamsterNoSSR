@@ -99,18 +99,21 @@
 </div>
 
 
-  <!-- 第二段：AI 解析（預留） -->
+  <!-- 第二段：AI 解析 -->
   <div class="interpretation">
     <h3>倉鼠法師進階解析</h3>
-    <p>
-      <!-- 之後接 Gemini 回傳文字 -->
-      倉鼠施工中...敬請期待
-    </p>
 
-    <button class="use-ai" disabled>
-      查看詳細解析
+    <p>{{ analysisText2 }}</p>
+
+    <button
+      class="use-ai"
+      (click)="getLenormandAIInterpretation()"
+      [disabled]="isLoading"
+    >
+      {{ isLoading ? '解析中...' : '查看詳細解析' }}
     </button>
   </div>
+
 
   <button routerLink="/home" class="use-ai">回首頁</button>
 </div>
