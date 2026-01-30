@@ -4,9 +4,19 @@
 
 <div class="board-header" style="background-image: url('images/board2.png');">
   <h1>歡迎來到倉鼠的魔法屋</h1>
-  <button class="bell-btn" (click)="toggleMusic()">
-    {{ isMusicPlaying ? '🔔' : '🔕' }}
-  </button>
+  <div class="header-right">
+    <a
+      class="game-link"
+      href="https://game.hamster-witch.org"
+      target="_blank"
+    >
+      🎮 玩點小遊戲
+    </a>
+
+    <button class="bell-btn" (click)="toggleMusic()">
+      {{ isMusicPlaying ? '🔔' : '🔕' }}
+    </button>
+  </div>
 
   <audio #bgm src="audios/hitorigotsu.mp3" loop></audio>
 </div>

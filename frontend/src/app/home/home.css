@@ -13,27 +13,9 @@
   text-align: center;
   position: relative;
 }
-/* 鈴鐺按鈕 */
-.bell-btn {
-  position: absolute;
-  right: 100px;        /* 👉 不貼邊 */
-  top: 50%;           /* 垂直置中 */
-  transform: translateY(-50%);
 
-  background: transparent; /* ✔ 透明 */
-  border: none;            /* ✔ 無邊框 */
-  padding: 0;
 
-  font-size: 1.6rem;
-  cursor: pointer;
 
-  line-height: 1;
-}
-
-/* hover 小互動（可選，但會很好看） */
-.bell-btn:hover {
-  transform: translateY(-50%) scale(1.2);
-}
 h1 {
   margin: 0;
   padding: 24px 16px;
@@ -131,9 +113,57 @@ h1 {
   border-radius: 20px;
   box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
+.header-right {
+  position: absolute;
+  right: 100px;        /* 不貼邊 */
+  top: 50%;
+  transform: translateY(-50%);
+
+  display: flex;
+  align-items: center;
+  gap: 12px;           /* 連結與鈴鐺距離 */
+}
+
+.game-link {
+  text-decoration: none;
+  background-color: transparent;
+
+  font-size: 1.1rem;
+  color: inherit;
+
+  padding: 4px 6px;
+  cursor: pointer;
+
+  transition: opacity 0.3s ease;
+}
+
+.game-link:hover {
+  opacity: 0.7;
+}
+
+/* 鈴鐺按鈕 */
+.bell-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+
+  font-size: 1.6rem;
+  cursor: pointer;
+  line-height: 1;
+}
+/* hover 小互動（可選，但會很好看） */
+.bell-btn:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+
 /* ===== 手機版（首頁）===== */
 @media (max-width: 768px) {
+  .header-right {
+    right: 24px;
+  }
 
+  
   .board-header {
     padding: 20px 16px;
   }
