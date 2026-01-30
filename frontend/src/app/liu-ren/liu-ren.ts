@@ -1,5 +1,4 @@
-import { Component, ChangeDetectionStrategy, PLATFORM_ID, Inject, ChangeDetectorRef} from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
+import { Component, ChangeDetectionStrategy,  ChangeDetectorRef} from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 // import { GoogleGenerativeAI, GenerateContentResult } from "@google/generative-ai";
@@ -49,9 +48,8 @@ export class LiuRen {
   
   private model: any = null;
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object , private cdr: ChangeDetectorRef) {
-    if (isPlatformBrowser(this.platformId)) {
-    }
+  constructor(private cdr: ChangeDetectorRef) {
+    
   }
   calculate() {
     if (this.num1 === null || this.num2 === null || this.num3 === null) {

@@ -1,0 +1,113 @@
+<!-- ========== 頁首看板 ========== -->
+<div class="board-header" style="background-image: url('images/board2.png');">
+  <h1>倉鼠的魔法屋-雷諾曼</h1>
+</div>
+
+<!-- ========== 彈出視窗 ========== -->
+@if (step === 'modal') {
+<div class="modal-overlay" style="background-image: url('images/hamster_bg_opacity.png');">
+  <div class="modal-content" >
+    <textarea
+      [(ngModel)]="question"
+      placeholder="你想問些什麼？"
+      rows="4"></textarea>
+
+    <button class="start-btn" (click)="startShuffle()">
+      開始抽牌
+    </button>
+  </div>
+</div>
+}
+
+<!-- ========== 洗牌動畫 ========== -->
+@if (step === 'shuffle') {
+<div class="center" style="background-image: url('images/hamster_bg_opacity.png');" >
+    <p class="hint">倉鼠法師洗牌中...唰唰唰</p>
+    <div class="shuffle-deck" style="background-image: url('images/rana.png');"></div>
+</div>
+}
+
+<!-- ========== 展開牌堆 / 抽牌 ========== -->
+@if (step === 'spread' || step === 'pick') {
+<div class="spread-area" style="background-image: url('images/hamster_bg_opacity.png');">
+  <p class="hint">
+    {{ step === 'spread'
+      ? '洗牌完成，牌正在展開...'
+      : '請憑直覺抽三張牌' }}
+  </p>
+
+  <div
+    class="card"
+    *ngFor="let card of deck; let i = index"
+    [class.clickable]="step === 'pick'"
+    (click)="step === 'pick' && pickCard(card)"
+    [style.transform]="
+      'translateX(' + (i * 14 - 280) + 'px) rotate(' + (i - 20) + 'deg)'
+    "
+    style="background-image: url('images/rana.png');" 
+  >
+     
+  </div>
+</div>
+}
+
+<!-- ========== 結果畫面 ========== -->
+@if (step === 'result') {
+<div class="result-content" style="background-image: url('images/hamster_bg_opacity.png');">
+
+  <h2 >你問的是：</h2>
+  <p class="interpretation">{{ question }}</p>
+
+  <h3>你抽到的牌：</h3>
+    <div class="picked">
+    @for (c of pickedCards; track c) {
+        <div
+        class="card-front"
+        [ngStyle]="{
+            'background-image': 'url(images/rana-card/rana' + c + '.jpg)'
+        }"
+        ></div>
+    }
+    </div>
+
+
+  <!-- 第一段：固定解析（陣列組裝用） -->
+<div class="interpretation">
+  <h3>雷諾曼牌陣解析</h3>
+
+  <p>
+    根據你問的問題，我們抽到的結果是
+    <strong>{{ resultA }}</strong>、
+    <strong>{{ resultB }}</strong>、
+    <strong>{{ resultC }}</strong>。
+  </p>
+
+  <p>{{ resultA }} 通常代表 {{ contentA }}</p>
+  <p>{{ resultB }} 通常代表 {{ contentB }}</p>
+  <p>{{ resultC }} 通常代表 {{ contentC }}</p>
+
+  <p>
+    把它們組合成一句話，
+    這三張牌在說……
+    <br>
+    （欲知詳情請見進階解析或直接詢問倉鼠法師本人）
+  </p>
+</div>
+
+
+  <!-- 第二段：AI 解析（預留） -->
+  <div class="interpretation">
+    <h3>倉鼠法師進階解析</h3>
+    <p>
+      <!-- 之後接 Gemini 回傳文字 -->
+      倉鼠施工中...敬請期待
+    </p>
+
+    <button class="use-ai" disabled>
+      查看詳細解析
+    </button>
+  </div>
+
+  <button routerLink="/home" class="use-ai">回首頁</button>
+</div>
+}
