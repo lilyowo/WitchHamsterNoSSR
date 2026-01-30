@@ -173,9 +173,21 @@ h1 {
     padding: 12px 8px;
   }
 
-  /* 鈴鐺：靠右但不擋字 */
+  .header-right {
+    position: static;          /* ⭐ 取消 absolute */
+    transform: none;
+
+    display: flex;
+    justify-content: center;   /* 置中 */
+    margin-top: 8px;
+    gap: 16px;
+  }
+
+  .game-link {
+    font-size: 1rem;
+  }
+
   .bell-btn {
-    right: 16px;
     font-size: 1.4rem;
   }
 
