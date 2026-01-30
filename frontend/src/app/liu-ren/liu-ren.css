@@ -186,3 +186,44 @@ h1 {
   opacity: 0.7;
   transform: none;
 }
+/* ===== 手機版（小六壬）===== */
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 1.6rem;
+    padding: 16px 8px;
+  }
+
+  .modal-content {
+    padding: 20px;
+  }
+
+  .number-inputs {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .number-inputs input {
+    width: 100%;
+  }
+
+  .final-abc {
+    font-size: 18px;
+  }
+
+  .interpretation {
+    margin: 24px 16px;
+    padding: 16px;
+  }
+
+  .use-ai {
+    font-size: 15px;
+    padding: 10px 24px;
+    min-width: 100px;
+  }
+
+  .result-content {
+    min-height: 100vh;
+    padding: 32px 12px;
+  }
+}

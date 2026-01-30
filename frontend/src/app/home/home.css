@@ -131,3 +131,56 @@ h1 {
   border-radius: 20px;
   box-shadow: 0 20px 60px rgba(0,0,0,0.3);
 }
+/* ===== 手機版（首頁）===== */
+@media (max-width: 768px) {
+
+  .board-header {
+    padding: 20px 16px;
+  }
+
+  .board-header h1 {
+    font-size: 1.6rem;
+    padding: 12px 8px;
+  }
+
+  /* 鈴鐺：靠右但不擋字 */
+  .bell-btn {
+    right: 16px;
+    font-size: 1.4rem;
+  }
+
+  /* 主畫面改成上下排列 */
+  .magic-container {
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 40px;
+  }
+
+  .overlay {
+    width: 90%;
+    max-width: none;
+    margin: 0 auto;
+    padding: 16px;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+  }
+
+  .button-grid {
+    grid-template-columns: 1fr; /* 一排一個按鈕 */
+    gap: 12px;
+    max-width: 260px;
+  }
+
+  /* 影片滿版但不爆 */
+  .magic-container2 {
+    padding: 20px 0;
+  }
+
+  .magic-video {
+    width: 90%;
+    max-width: none;
+  }
+}
