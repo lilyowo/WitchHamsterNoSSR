@@ -18,3 +18,4 @@ router.get('/', async () => {
 
 router.post('/api/liu-ren/gemini', [GeminiController, 'liuRen'])
 router.post('/api/lenormand/gemini', [GeminiController, 'lenormand'])
+router.post('/api/tarot/gemini', [GeminiController, 'tarot'])

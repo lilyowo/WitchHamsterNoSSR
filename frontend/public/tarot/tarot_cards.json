@@ -1,0 +1,1169 @@
+[
+   {
+    "id": 0,
+    "name": "愚人",
+    "upright": {
+      "general": "新的開始、冒險精神、順從直覺踏出第一步",
+      "love": "感情的新起點、不設限的相處模式",
+      "career": "嘗試新方向、勇於跳脫既有框架"
+    },
+    "reversed": {
+      "general": "魯莽、缺乏準備、行動前未深思",
+      "love": "關係不穩定、情感輕率",
+      "career": "方向混亂、計畫不足"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/c9fe055861494c26a915d07337682260_375x.jpeg?w=217&h=385"
+  },
+  {
+    "id": 1,
+    "name": "魔術師",
+    "upright": {
+      "general": "掌控資源、意志力強、具備實現能力",
+      "love": "主動吸引、懂得表達情感",
+      "career": "善用能力、創造機會"
+    },
+    "reversed": {
+      "general": "操控、能力未發揮、能量分散",
+      "love": "表現不真誠、技巧掩蓋真心",
+      "career": "資源浪費、判斷失準"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/de9a95d9cec44c4bb104b90a51e514fb_375x.jpeg?w=217&h=385"
+  },
+  {
+    "id": 2,
+    "name": "女祭司",
+    "upright": {
+      "general": "直覺敏銳、潛藏資訊、內在智慧",
+      "love": "情感未明朗、靜待真相",
+      "career": "觀察局勢、暫不宜行動"
+    },
+    "reversed": {
+      "general": "忽略直覺、資訊被遮蔽",
+      "love": "誤解、情感不透明",
+      "career": "判斷失誤、內部混亂"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/c89ebd42b31847019093554f9e42d2fc_375x.jpeg?w=216&h=385"
+  },
+  {
+    "id": 3,
+    "name": "皇后",
+    "upright": {
+      "general": "滋養、豐盛、關係成熟",
+      "love": "溫柔付出、情感連結",
+      "career": "支持他人、創造舒適環境"
+    },
+    "reversed": {
+      "general": "過度依賴、情緒失衡",
+      "love": "付出失衡、缺乏界線",
+      "career": "照顧過頭、忽略自己"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/5c9980b1bba7471ab0fab11fc94d8441_375x.jpeg?w=218&h=380"
+  },
+  {
+    "id": 4,
+    "name": "皇帝",
+    "upright": {
+      "general": "結構、秩序、權威與責任",
+      "love": "穩定關係、明確定位",
+      "career": "領導力、制度建立"
+    },
+    "reversed": {
+      "general": "控制失衡、權威動搖",
+      "love": "過度掌控、情感僵化",
+      "career": "管理失當、結構不穩"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/e0bf5011a78d48acb8196bfce12c606e_375x.jpeg?w=219&h=385"
+  },  {
+    "id": 5,
+    "name": "教皇",
+    "upright": {
+      "general": "傳統、指引、遵循正統道路",
+      "love": "穩定承諾、價值一致",
+      "career": "制度內發展、尋求導師"
+    },
+    "reversed": {
+      "general": "僵化、抗拒規範",
+      "love": "價值衝突、關係受限",
+      "career": "不適應體制、路線偏離"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/6c013cb1ec4d4869be2f21bbd576738c_375x.jpeg?w=220&h=387"
+  },
+
+  {
+    "id": 6,
+    "name": "戀人",
+    "upright": {
+      "general": "選擇、連結、價值一致",
+      "love": "情感契合、關係深化",
+      "career": "合作抉擇、價值取向"
+    },
+    "reversed": {
+      "general": "選擇錯置、內在衝突",
+      "love": "關係失衡、價值不合",
+      "career": "錯誤合作、方向不一致"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/75b65dd6e3e64f45b45d24b45f073abf_375x.jpeg?w=216&h=385"
+  },
+
+  {
+    "id": 7,
+    "name": "戰車",
+    "upright": {
+      "general": "意志前進、突破阻礙",
+      "love": "主動推進關係",
+      "career": "目標明確、全力以赴"
+    },
+    "reversed": {
+      "general": "方向混亂、失控",
+      "love": "強推關係反而受阻",
+      "career": "行動失序、缺乏策略"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/88d0a24e2cf64d1ea031828fe331f4b7_375x.jpeg?w=217&h=386"
+  }, {
+    "id": 8,
+    "name": "力量",
+    "upright": {
+      "general": "溫柔而堅定的力量、內在勇氣、以柔克剛",
+      "love": "包容與耐心、以理解維繫感情",
+      "career": "穩定輸出實力、情緒管理成熟"
+    },
+    "reversed": {
+      "general": "信心不足、情緒失控、內在力量被壓抑",
+      "love": "缺乏安全感、情緒影響關係",
+      "career": "自我懷疑、難以持續投入"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/35216f53d0144ea0aa1895469b842dab_375x.jpeg?w=217&h=386"
+  },
+  {
+    "id": 9,
+    "name": "隱者",
+    "upright": {
+      "general": "內省、獨處、尋找真正的答案",
+      "love": "需要空間思考感情、暫時沉澱",
+      "career": "獨立研究、累積經驗與智慧"
+    },
+    "reversed": {
+      "general": "逃避現實、過度封閉自己",
+      "love": "冷處理感情、拒絕溝通",
+      "career": "與環境脫節、方向迷失"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/14e7f40dcc5246a7908c68530220abba_375x.jpeg?w=220&h=380"
+  },
+  {
+    "id": 10,
+    "name": "命運之輪",
+    "upright": {
+      "general": "命運轉動、時機到來、不可控的變化",
+      "love": "關係進入轉折點、緣分推動",
+      "career": "環境變化、機會出現"
+    },
+    "reversed": {
+      "general": "時機不順、抗拒改變",
+      "love": "關係卡關、重複舊模式",
+      "career": "運勢低潮、進展受阻"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/42f55eba96bf49b9bdb6a6fb3fac9a64_375x.jpeg?w=217&h=385"
+  },
+  {
+    "id": 11,
+    "name": "正義",
+    "upright": {
+      "general": "公平、衡量、因果分明",
+      "love": "理性面對關係、責任對等",
+      "career": "制度、公正評價、合約相關"
+    },
+    "reversed": {
+      "general": "不公、偏見、真相被扭曲",
+      "love": "關係失衡、責任不對等",
+      "career": "誤判情勢、制度問題"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/d2e8bc153cac40f1b410e367d807dd10_375x.jpeg?w=214&h=366"
+  },
+  {
+    "id": 12,
+    "name": "倒吊人",
+    "upright": {
+      "general": "暫停、換角度思考、必要的犧牲",
+      "love": "為關係讓步、重新理解對方",
+      "career": "暫緩行動、等待合適時機"
+    },
+    "reversed": {
+      "general": "徒勞的忍耐、拒絕改變",
+      "love": "單方面付出、停滯不前",
+      "career": "卡住卻不願調整策略"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/a771af5bf2df4ebb80fa54225258cd51_375x.jpeg?w=218&h=385"
+  },
+  {
+    "id": 13,
+    "name": "死神",
+    "upright": {
+      "general": "結束舊階段、徹底轉化、重生前夕",
+      "love": "關係結束或進入全新型態",
+      "career": "舊模式結束、新方向開啟"
+    },
+    "reversed": {
+      "general": "抗拒改變、無法放下過去",
+      "love": "關係拖延、不願面對結束",
+      "career": "轉型失敗、停留舊框架"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/5efe2ea265314f28b8af58a2c582c845_375x.jpeg?w=218&h=381"
+  },
+  {
+    "id": 14,
+    "name": "節制",
+    "upright": {
+      "general": "平衡、調和、循序漸進",
+      "love": "溫和相處、關係慢慢穩定",
+      "career": "協調資源、穩健發展"
+    },
+    "reversed": {
+      "general": "失衡、過度、節奏混亂",
+      "love": "情感不對等、缺乏磨合",
+      "career": "資源配置不良、效率低落"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/6d438d6c32364480978c9e7bba3ebb77_375x.jpeg?w=222&h=385"
+  },
+  {
+    "id": 15,
+    "name": "惡魔",
+    "upright": {
+      "general": "執著、慾望、被束縛的狀態",
+      "love": "強烈吸引、依賴或不健康連結",
+      "career": "物質導向、壓力與控制"
+    },
+    "reversed": {
+      "general": "開始覺察束縛、嘗試掙脫",
+      "love": "意識到不對等關係",
+      "career": "擺脫不良工作模式"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/70b39d6b409246068522a2b9919a4039_375x.jpeg?w=217&h=380"
+  },
+  {
+    "id": 16,
+    "name": "高塔",
+    "upright": {
+      "general": "突如其來的崩解、真相揭露",
+      "love": "關係震盪、衝擊現有狀態",
+      "career": "突發變動、結構瓦解"
+    },
+    "reversed": {
+      "general": "延後的危機、壓抑問題",
+      "love": "問題累積、遲早爆發",
+      "career": "隱性風險、未解決的問題"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/bb989e7bf5e54cd58a27a839a4e65a53_375x.jpeg?w=214&h=384"
+  },
+  {
+    "id": 17,
+    "name": "星星",
+    "upright": {
+      "general": "希望、療癒、未來方向清晰",
+      "love": "重新相信愛、情感修復",
+      "career": "長期目標、信心回歸"
+    },
+    "reversed": {
+      "general": "失望、信念動搖",
+      "love": "對感情缺乏信心",
+      "career": "目標模糊、動力下降"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/8a1b2a385af54169bf300d230a93e1c6_375x.jpeg?w=215&h=387"
+  },
+  {
+    "id": 18,
+    "name": "月亮",
+    "upright": {
+      "general": "不安、迷惘、潛意識影響強烈",
+      "love": "情感不確定、容易誤解",
+      "career": "資訊不明、需要謹慎判斷"
+    },
+    "reversed": {
+      "general": "迷霧散去、真相浮現",
+      "love": "逐漸看清對方或關係",
+      "career": "不安減輕、狀況明朗"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/bf2fa8586cca43e6b790383dea0dced7_375x.jpeg?w=219&h=382"
+  },
+  {
+    "id": 19,
+    "name": "太陽",
+    "upright": {
+      "general": "成功、喜悅、正向明朗",
+      "love": "幸福、坦誠、關係順利",
+      "career": "成果展現、被肯定"
+    },
+    "reversed": {
+      "general": "延遲的快樂、能量下降",
+      "love": "熱情減弱、需要調整期待",
+      "career": "成果未完全展現"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/4c5bdb49dc984553824a4b7dcda0fe94_375x.jpeg?w=215&h=380"
+  },
+  {
+    "id": 20,
+    "name": "審判",
+    "upright": {
+      "general": "覺醒、重要抉擇、回應內在召喚",
+      "love": "關係關鍵時刻、需要誠實面對",
+      "career": "重新定位、重大決定"
+    },
+    "reversed": {
+      "general": "逃避改變、遲遲未下決定",
+      "love": "不願面對問題",
+      "career": "錯失轉機、原地踏步"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/896a967e1ca148c7933864053238507e_375x.jpeg?w=214&h=380"
+  },
+  {
+    "id": 21,
+    "name": "世界",
+    "upright": {
+      "general": "完成、圓滿、階段性成功",
+      "love": "關係成熟、進入穩定階段",
+      "career": "目標達成、成果總結"
+    },
+    "reversed": {
+      "general": "未竟之事、循環未完",
+      "love": "關係卡在最後一步",
+      "career": "專案尚未收尾"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/8538b7d19c1449199b179af486cedcef_375x.jpeg?w=215&h=382"
+  },{
+    "id": 22,
+    "name": "權杖一",
+    "upright": {
+      "general": "行動的火花、熱情被點燃、新計畫的開始",
+      "love": "激情萌芽、主動靠近、關係出現火花",
+      "career": "新專案啟動、行動力大增"
+    },
+    "reversed": {
+      "general": "動力不足、熱情受阻、行動延宕",
+      "love": "熱度下降、缺乏主動",
+      "career": "計畫卡關、缺乏執行力"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/60e68ff3ed3c4dd9a78a179034e22ae9_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 23,
+    "name": "權杖二",
+    "upright": {
+      "general": "方向選擇、視野擴展、開始規劃未來",
+      "love": "思考關係走向、衡量選項",
+      "career": "評估機會、制定長期方向"
+    },
+    "reversed": {
+      "general": "方向不明、猶豫不決",
+      "love": "對關係缺乏共識",
+      "career": "規劃不足、眼界受限"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/1a960126957d4d5681bbcfa7983966fb_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 24,
+    "name": "權杖三",
+    "upright": {
+      "general": "行動推進、成果在望、等待回饋",
+      "love": "對關係抱持期待、展望未來",
+      "career": "事業擴展、對外合作"
+    },
+    "reversed": {
+      "general": "進展受阻、期待落空",
+      "love": "關係停滯、未如預期",
+      "career": "拓展不順、時機未到"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/737a670b9e964d15a73096be57813157_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 25,
+    "name": "權杖四",
+    "upright": {
+      "general": "穩定成果、值得慶祝、基礎完成",
+      "love": "關係穩定、安心感增加",
+      "career": "階段性完成、團隊和諧"
+    },
+    "reversed": {
+      "general": "不穩定、歸屬感不足",
+      "love": "關係缺乏安全感",
+      "career": "基礎尚未穩固"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/2342deacb1aa4c40b1d3e2de4b6d0056_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 26,
+    "name": "權杖五",
+    "upright": {
+      "general": "競爭、摩擦、意見衝突",
+      "love": "感情中的爭執或角力",
+      "career": "職場競爭、意見不合"
+    },
+    "reversed": {
+      "general": "衝突內化、壓力累積",
+      "love": "表面平靜、內在不滿",
+      "career": "暗中競爭、氣氛緊張"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/655ab3e7481a44a4b929569a125f52cc_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 27,
+    "name": "權杖六",
+    "upright": {
+      "general": "勝利、被看見、獲得肯定",
+      "love": "關係獲得認同、信心提升",
+      "career": "成果被肯定、表現亮眼"
+    },
+    "reversed": {
+      "general": "自尊受挫、成就未被承認",
+      "love": "期待落空、缺乏回應",
+      "career": "努力未被看見"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/7260118fa511440e8eb934d84ded5570_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 28,
+    "name": "權杖七",
+    "upright": {
+      "general": "立場堅守、捍衛成果、迎戰挑戰",
+      "love": "為關係奮力維護",
+      "career": "面對競爭、守住位置"
+    },
+    "reversed": {
+      "general": "信心下滑、立場動搖",
+      "love": "無力維持關係",
+      "career": "難以招架壓力"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/4cc2a9ca297a49b88b7e4f7b72666a9e_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 29,
+    "name": "權杖八",
+    "upright": {
+      "general": "快速推進、訊息流動、事情加速",
+      "love": "感情快速發展、頻繁互動",
+      "career": "進度加快、溝通順暢"
+    },
+    "reversed": {
+      "general": "延誤、訊息混亂",
+      "love": "溝通不良、進展放慢",
+      "career": "流程卡住、延遲發生"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/9d30e6b5693e4287ada42099d19f0d7d_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 30,
+    "name": "權杖九",
+    "upright": {
+      "general": "疲憊但撐住、防禦姿態、最後關卡",
+      "love": "關係中的防備與堅持",
+      "career": "壓力累積、但尚能支撐"
+    },
+    "reversed": {
+      "general": "過度防備、想要放棄",
+      "love": "對感情失去信心",
+      "career": "精疲力盡、難以繼續"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/6d7d9d9dea5d4dddadabe061b7f1d1ce_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 31,
+    "name": "權杖十",
+    "upright": {
+      "general": "負擔沉重、責任過多、壓力累積",
+      "love": "關係成為壓力來源",
+      "career": "工作量過大、責任壓身"
+    },
+    "reversed": {
+      "general": "試圖卸下重擔、逃避責任",
+      "love": "不想再承擔情感壓力",
+      "career": "放下不必要的負荷"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/7060459c80214555bd7df09b74de3119_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 32,
+    "name": "權杖侍衛",
+    "upright": {
+      "general": "熱情嘗試、新想法萌芽",
+      "love": "主動示好、青春氣息",
+      "career": "新計畫、新學習機會"
+    },
+    "reversed": {
+      "general": "衝動嘗試、缺乏持續力",
+      "love": "三分鐘熱度",
+      "career": "想法多但執行弱"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/49bc6b4297dc421791fa23361d9954c3_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 33,
+    "name": "權杖騎士",
+    "upright": {
+      "general": "行動力強、衝勁十足、快速前進",
+      "love": "熱烈追求、情感來得快",
+      "career": "積極進取、快速行動"
+    },
+    "reversed": {
+      "general": "魯莽、方向失控",
+      "love": "情緒化、忽冷忽熱",
+      "career": "衝動決策、後果未顧"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/9000db4547c94ac6a9b3987b79874864_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 34,
+    "name": "權杖皇后",
+    "upright": {
+      "general": "自信魅力、熱情穩定、吸引力強",
+      "love": "自然吸引、情感自信",
+      "career": "帶動氣氛、凝聚人心"
+    },
+    "reversed": {
+      "general": "自信動搖、情緒外放失衡",
+      "love": "缺乏安全感、比較心強",
+      "career": "人際壓力、情緒影響表現"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/c2f54918fffa4c73acb85383f5569568_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 35,
+    "name": "權杖國王",
+    "upright": {
+      "general": "成熟領導、遠見規劃、行動果斷",
+      "love": "關係中的主導與承擔",
+      "career": "領導位置、策略決策"
+    },
+    "reversed": {
+      "general": "專斷、衝動領導",
+      "love": "過度主導、忽略對方",
+      "career": "決策冒進、缺乏耐心"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/19da5592d0544546a55567485e1a41e4_375x.jpeg?w=173&h=300"
+  },{
+    "id": 36,
+    "name": "聖杯一",
+    "upright": {
+      "general": "情感的開始、感受被喚醒、內心敞開",
+      "love": "愛意萌芽、新的情感機會",
+      "career": "對工作產生熱情、投入感提升"
+    },
+    "reversed": {
+      "general": "情感封閉、感受受阻",
+      "love": "不敢表達情感、愛意壓抑",
+      "career": "缺乏熱情、動力不足"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/6afa96e98954477485b909a7cd7c6786_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 37,
+    "name": "聖杯二",
+    "upright": {
+      "general": "情感交流、互相理解、關係平衡",
+      "love": "雙向連結、情感契合",
+      "career": "良好合作、互信關係"
+    },
+    "reversed": {
+      "general": "情感失衡、連結中斷",
+      "love": "關係不同步、誤解產生",
+      "career": "合作不順、缺乏默契"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/4f455013eae0496e97d6a53ddcdc4f99_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 38,
+    "name": "聖杯三",
+    "upright": {
+      "general": "分享喜悅、慶祝、情感支持",
+      "love": "輕鬆愉快的互動、友情升溫",
+      "career": "團隊合作、氣氛和諧"
+    },
+    "reversed": {
+      "general": "過度放縱、表面歡樂",
+      "love": "第三者介入、關係不單純",
+      "career": "團隊失序、分心娛樂"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/2491605ac573436089b8ff4334c17a5a_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 39,
+    "name": "聖杯四",
+    "upright": {
+      "general": "冷淡、倦怠、忽略眼前機會",
+      "love": "對感情提不起勁、情緒退縮",
+      "career": "對現況不滿、缺乏動力"
+    },
+    "reversed": {
+      "general": "重新注意機會、情緒甦醒",
+      "love": "重新看見感情可能性",
+      "career": "開始思考新的方向"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/f44357a15fbf46cb9d89449c34321cf7_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 40,
+    "name": "聖杯五",
+    "upright": {
+      "general": "失落、遺憾、專注於失去",
+      "love": "情感受挫、難以放下過去",
+      "career": "挫折感強、對失敗耿耿於懷"
+    },
+    "reversed": {
+      "general": "逐漸釋懷、開始修復",
+      "love": "走出失戀、情感回溫",
+      "career": "重新振作、找回信心"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/d6fce851976949c29a243aae01a0de21_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 41,
+    "name": "聖杯六",
+    "upright": {
+      "general": "回憶、熟悉感、過去連結",
+      "love": "舊情復燃、懷舊情感",
+      "career": "過往經驗帶來幫助"
+    },
+    "reversed": {
+      "general": "沉溺過去、難以前進",
+      "love": "放不下舊關係",
+      "career": "過去模式限制發展"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/08aae04d5a6742819a0a9369f5577c9f_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 42,
+    "name": "聖杯七",
+    "upright": {
+      "general": "選擇混亂、誘惑多、迷惘",
+      "love": "感情選項過多、難以抉擇",
+      "career": "方向不清、想法分散"
+    },
+    "reversed": {
+      "general": "迷霧散去、逐漸清楚",
+      "love": "做出情感選擇",
+      "career": "聚焦目標、去除雜念"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/13f1bb59da8a4f0eb097fffab4d7fcdb_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 43,
+    "name": "聖杯八",
+    "upright": {
+      "general": "情感抽離、離開不再適合的",
+      "love": "放下舊感情、選擇離開",
+      "career": "轉換跑道、尋找新意義"
+    },
+    "reversed": {
+      "general": "遲疑不決、拉扯未斷",
+      "love": "想離開卻放不下",
+      "career": "對現況不滿卻不敢改變"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/b59b409fe3924ab49c3303cd503a895a_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 44,
+    "name": "聖杯九",
+    "upright": {
+      "general": "滿足、願望實現、情感富足",
+      "love": "感情如願、內心滿足",
+      "career": "成果令人滿意、自我肯定"
+    },
+    "reversed": {
+      "general": "空虛、不滿足、慾望落空",
+      "love": "表面幸福、內在失落",
+      "career": "成就感不足"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/66e32dad80494120983052832655499c_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 45,
+    "name": "聖杯十",
+    "upright": {
+      "general": "情感圓滿、和諧、幸福狀態",
+      "love": "關係穩定、家庭幸福",
+      "career": "團隊和諧、情感支持充足"
+    },
+    "reversed": {
+      "general": "表面和諧、內在失衡",
+      "love": "關係看似美好但有裂縫",
+      "career": "團隊問題被掩蓋"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/f970583ce3a54317b56b5ec3dec49766_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 46,
+    "name": "聖杯侍衛",
+    "upright": {
+      "general": "溫柔訊息、情感表達、浪漫嘗試",
+      "love": "曖昧、告白、情感傳遞",
+      "career": "創意想法、感性投入"
+    },
+    "reversed": {
+      "general": "情緒不成熟、表達混亂",
+      "love": "情感幼稚、不穩定",
+      "career": "想法多但不實際"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/4707678cb7b14389bc3ac5755515a37f_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 47,
+    "name": "聖杯騎士",
+    "upright": {
+      "general": "浪漫追求、情感理想化",
+      "love": "深情示愛、浪漫行動",
+      "career": "憑感覺行事、理想導向"
+    },
+    "reversed": {
+      "general": "逃避現實、情緒化",
+      "love": "不切實際的期待",
+      "career": "理想過高、執行不足"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/a4ba3cfb30b84c729367987844e53847_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 48,
+    "name": "聖杯皇后",
+    "upright": {
+      "general": "情感包容、同理心強、溫柔理解",
+      "love": "體貼關懷、情感支持",
+      "career": "關照他人、情緒敏銳"
+    },
+    "reversed": {
+      "general": "情緒過度、界線模糊",
+      "love": "被情感牽制、過度付出",
+      "career": "情緒影響判斷"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/967251ac2cb1485e91c845806612648d_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 49,
+    "name": "聖杯國王",
+    "upright": {
+      "general": "情緒穩定、成熟包容、理性關懷",
+      "love": "可靠伴侶、情感成熟",
+      "career": "情緒管理佳、穩定領導"
+    },
+    "reversed": {
+      "general": "情緒壓抑、冷處理",
+      "love": "不善表達情感",
+      "career": "情緒影響團隊氛圍"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/9dec02a3ea3642fbb694cc3ee6d353ec_375x.jpeg?w=173&h=300"
+  },{
+    "id": 50,
+    "name": "寶劍一",
+    "upright": {
+      "general": "清晰思維、真相揭示、理性啟動",
+      "love": "坦誠溝通、說清楚彼此立場",
+      "career": "決策果斷、釐清問題核心"
+    },
+    "reversed": {
+      "general": "思緒混亂、真相被扭曲",
+      "love": "溝通失真、誤解加深",
+      "career": "判斷失誤、資訊不全"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/281137001105409497024f97ab90ee12_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 51,
+    "name": "寶劍二",
+    "upright": {
+      "general": "僵持、封閉情緒、逃避抉擇",
+      "love": "不願面對感情真相",
+      "career": "猶豫不決、拖延選擇"
+    },
+    "reversed": {
+      "general": "被迫面對、情緒釋放",
+      "love": "不得不正視關係問題",
+      "career": "做出困難但必要的決定"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/20244b828970454f82a50e304ee3f437_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 52,
+    "name": "寶劍三",
+    "upright": {
+      "general": "心痛、失望、情感受創",
+      "love": "感情受傷、分離或背叛",
+      "career": "挫折感強、情緒受影響"
+    },
+    "reversed": {
+      "general": "修復傷口、逐漸療癒",
+      "love": "走出傷痛、重新整理情感",
+      "career": "從失敗中復原"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/84176ea5084b414aa7444f87014602c1_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 53,
+    "name": "寶劍四",
+    "upright": {
+      "general": "休息、暫停、恢復能量",
+      "love": "感情需要冷靜與空間",
+      "career": "暫緩進度、重新整理"
+    },
+    "reversed": {
+      "general": "無法休息、焦慮累積",
+      "love": "情緒不安、關係緊繃",
+      "career": "過度勞累、壓力爆表"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/27dee42f3c1a474c9dbb3ae5cf3730fd_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 54,
+    "name": "寶劍五",
+    "upright": {
+      "general": "衝突代價、輸贏不對等",
+      "love": "爭吵後留下傷痕",
+      "career": "職場鬥爭、氣氛緊張"
+    },
+    "reversed": {
+      "general": "後悔、試圖和解",
+      "love": "想修補關係",
+      "career": "結束內耗、尋求共識"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/6555ecfde2354d22add5a3f4ad65a202_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 55,
+    "name": "寶劍六",
+    "upright": {
+      "general": "過渡期、離開困境、逐步改善",
+      "love": "慢慢走出情感低潮",
+      "career": "轉換環境、尋求平靜"
+    },
+    "reversed": {
+      "general": "抗拒改變、停留原地",
+      "love": "放不下過去",
+      "career": "不願離開不利狀態"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/0d4a626d1e054bbe830a7058e7f34b61_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 56,
+    "name": "寶劍七",
+    "upright": {
+      "general": "隱瞞、策略行動、不完全坦誠",
+      "love": "關係中有秘密或試探",
+      "career": "暗中操作、策略布局"
+    },
+    "reversed": {
+      "general": "謊言揭穿、策略失效",
+      "love": "真相曝光、需要誠實",
+      "career": "不當手段被發現"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/dff38ffe93c84762961b11f1b6c00954_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 57,
+    "name": "寶劍八",
+    "upright": {
+      "general": "自我限制、受困心態、無力感",
+      "love": "被恐懼綁住、不敢前進",
+      "career": "缺乏自信、覺得受困"
+    },
+    "reversed": {
+      "general": "限制鬆動、逐漸解放",
+      "love": "開始走出心理枷鎖",
+      "career": "找回行動空間"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/fe5d28544a6c477980153a700a2e0b26_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 58,
+    "name": "寶劍九",
+    "upright": {
+      "general": "焦慮、恐懼、失眠與內耗",
+      "love": "過度擔心關係結果",
+      "career": "壓力過大、精神負荷"
+    },
+    "reversed": {
+      "general": "恐懼減輕、情緒釋放",
+      "love": "逐漸放下擔憂",
+      "career": "壓力開始下降"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/729b37dd4e5f47088ca5a5ba96e39335_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 59,
+    "name": "寶劍十",
+    "upright": {
+      "general": "徹底結束、無法再承受",
+      "love": "關係走到盡頭",
+      "career": "專案或階段終止"
+    },
+    "reversed": {
+      "general": "痛苦延續、尚未完全結束",
+      "love": "分離後仍受影響",
+      "career": "問題未完全解決"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/aa5752fbd6124cee997e9fdb83aee988_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 60,
+    "name": "寶劍侍衛",
+    "upright": {
+      "general": "警覺、觀察、理性試探",
+      "love": "觀察對方、保持距離",
+      "career": "蒐集資訊、學習新知"
+    },
+    "reversed": {
+      "general": "誤解、資訊混亂",
+      "love": "過度猜測、溝通失真",
+      "career": "錯誤訊息、判斷失準"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/7e5ac5e20cf94ee9ad8b02e47c346834_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 61,
+    "name": "寶劍騎士",
+    "upright": {
+      "general": "行動快速、言語直接、衝鋒在前",
+      "love": "直球表達、不顧後果",
+      "career": "快速推進、但風險高"
+    },
+    "reversed": {
+      "general": "攻擊性強、衝動行事",
+      "love": "言語傷人、缺乏體貼",
+      "career": "冒進決策、引發衝突"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/59d4682c69fb4d80b3c285cdba817b06_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 62,
+    "name": "寶劍皇后",
+    "upright": {
+      "general": "理性清明、界線分明、直言不諱",
+      "love": "誠實面對感情、不再委屈",
+      "career": "專業判斷、冷靜決策"
+    },
+    "reversed": {
+      "general": "冷酷、防衛過度",
+      "love": "言語尖銳、情感疏離",
+      "career": "批判過多、缺乏彈性"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/8b0b94985bc24ec6af41a71734c44a09_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 63,
+    "name": "寶劍國王",
+    "upright": {
+      "general": "權威理性、邏輯清晰、決策果斷",
+      "love": "理性主導、情感收斂",
+      "career": "制定規則、掌控全局"
+    },
+    "reversed": {
+      "general": "思維僵化、權威濫用",
+      "love": "冷漠疏離、缺乏同理",
+      "career": "專斷決策、壓迫氛圍"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/9bc7ace817c24e4791ce5616e0fbbd4d_375x.jpeg?w=173&h=300"
+  },{
+    "id": 64,
+    "name": "星幣一",
+    "upright": {
+      "general": "實際機會、新的物質起點、穩定開端",
+      "love": "務實的感情開始、可靠的發展可能",
+      "career": "新工作、新專案或實際收益出現"
+    },
+    "reversed": {
+      "general": "錯失機會、基礎不穩",
+      "love": "感情缺乏實際投入",
+      "career": "資源浪費、機會未被把握"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/d2c1a74db0064e9493cd51cf4329375e_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 65,
+    "name": "星幣二",
+    "upright": {
+      "general": "平衡、多工處理、資源調配",
+      "love": "在感情與現實間取得平衡",
+      "career": "同時處理多項任務或角色"
+    },
+    "reversed": {
+      "general": "失衡、顧此失彼",
+      "love": "感情與生活難以兼顧",
+      "career": "時間與資源管理失當"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/c536eb993a8c4b7181fff2cd85ea90d8_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 66,
+    "name": "星幣三",
+    "upright": {
+      "general": "合作、專業累積、團隊成果",
+      "love": "為關係共同努力、實際經營",
+      "career": "團隊合作、專業被看見"
+    },
+    "reversed": {
+      "general": "合作不順、缺乏認可",
+      "love": "付出不被重視",
+      "career": "團隊溝通不良、專業受質疑"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/422902f69ec744589f5c1d6614030a86_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 67,
+    "name": "星幣四",
+    "upright": {
+      "general": "保守、防守、緊抓資源",
+      "love": "害怕失去而過度控制",
+      "career": "不願冒險、守成心態"
+    },
+    "reversed": {
+      "general": "放手、重新流動",
+      "love": "學會信任、不再緊抓",
+      "career": "釋放資源、嘗試新方向"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/2bfe66f5ccd844a3a1d68ba7f302d235_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 68,
+    "name": "星幣五",
+    "upright": {
+      "general": "匱乏、失落、缺乏支持",
+      "love": "感情中的孤單與不安",
+      "career": "財務壓力、資源不足"
+    },
+    "reversed": {
+      "general": "逐漸脫困、尋求幫助",
+      "love": "開始被理解或支持",
+      "career": "改善財務狀況、重建信心"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/95234cd233904ceb9fdf815184029ee5_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 69,
+    "name": "星幣六",
+    "upright": {
+      "general": "給予與接受、資源平衡",
+      "love": "關係中的付出對等",
+      "career": "獲得支援、合理回報"
+    },
+    "reversed": {
+      "general": "不對等、失衡的付出",
+      "love": "一方付出過多",
+      "career": "資源分配不公"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/0595316907ac4f298d1ccb483011da75_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 70,
+    "name": "星幣七",
+    "upright": {
+      "general": "耐心等待、成果評估",
+      "love": "關係需要時間成長",
+      "career": "長期投入、暫未見成效"
+    },
+    "reversed": {
+      "general": "急於求成、缺乏耐性",
+      "love": "對關係失去耐心",
+      "career": "想快速收成、忽略累積"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/25315cd809fe405984ebde36b5de1ea4_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 71,
+    "name": "星幣八",
+    "upright": {
+      "general": "專注投入、技術精進",
+      "love": "用行動經營感情",
+      "career": "努力學習、踏實累積實力"
+    },
+    "reversed": {
+      "general": "敷衍、缺乏投入",
+      "love": "關係中不用心",
+      "career": "工作倦怠、效率低落"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/fd6aaa53f90347cf860a8cb3684ad299_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 72,
+    "name": "星幣九",
+    "upright": {
+      "general": "獨立、自給自足、物質與內在富足",
+      "love": "享受單身或成熟關係",
+      "career": "財務穩定、個人成就"
+    },
+    "reversed": {
+      "general": "依賴、內在不安",
+      "love": "過度需要對方肯定",
+      "career": "缺乏安全感、怕失去成果"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/9e44ae641cdc4773a0a1d500fef86c4e_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 73,
+    "name": "星幣十",
+    "upright": {
+      "general": "長期穩定、家族與累積成果",
+      "love": "長久關係、家庭基礎",
+      "career": "事業穩定、長期保障"
+    },
+    "reversed": {
+      "general": "不穩定、家庭或資源壓力",
+      "love": "家庭因素造成壓力",
+      "career": "長期結構出現問題"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/a545953e0c3d4bcabe5c1bf5a9ec82be_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 74,
+    "name": "星幣侍衛",
+    "upright": {
+      "general": "學習、實際嘗試、新技能",
+      "love": "務實表達、慢慢培養",
+      "career": "學習新領域、打基礎"
+    },
+    "reversed": {
+      "general": "學習停滯、缺乏行動",
+      "love": "空想多於實際",
+      "career": "計畫多但不落實"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/b7c097d400ab498e9352cdfda3fb856e_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 75,
+    "name": "星幣騎士",
+    "upright": {
+      "general": "踏實前進、責任感強、持續投入",
+      "love": "穩定可靠、慢但長久",
+      "career": "勤奮工作、值得信賴"
+    },
+    "reversed": {
+      "general": "拖延、固執、效率低落",
+      "love": "關係進展過慢",
+      "career": "缺乏彈性、停滯不前"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/4d1c668411e0422fbcb83649fdd2a37a_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 76,
+    "name": "星幣皇后",
+    "upright": {
+      "general": "滋養現實、豐盛穩定、照顧力強",
+      "love": "溫柔照顧、實際付出",
+      "career": "穩定經營、資源管理良好"
+    },
+    "reversed": {
+      "general": "過度操心、物質焦慮",
+      "love": "付出過多而疲憊",
+      "career": "被現實壓力壓垮"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/57fa1b4cd9a04b70bd1e3c53d1ce5468_375x.jpeg?w=173&h=300"
+  },
+  {
+    "id": 77,
+    "name": "星幣國王",
+    "upright": {
+      "general": "財務穩定、實際掌控、長期成功",
+      "love": "可靠成熟、提供安全感",
+      "career": "事業頂峰、資源掌控者"
+    },
+    "reversed": {
+      "general": "財務風險、掌控失衡",
+      "love": "現實至上、忽略情感",
+      "career": "貪婪或管理失當"
+    },
+    "imgURL": "https://img.myshopline.com/image/store/2000019059/1616561687750/26f7296c4c994b5ba3ae17f866bf4ec6_375x.jpeg?w=173&h=300"
+  }
+
+]
